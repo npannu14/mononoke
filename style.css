@@ -10,15 +10,15 @@ h2, p {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   overflow: hidden;
-  background-color: #152b33;
+  background-color: #153541;
 }
 
 ul li {
   float: left;
-  border-right:1px solid #bbbbbb;
+  border-right:1px solid #b9a94d;
 }
 
 ul li:last-child {
@@ -39,4 +39,9 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
   background-color: #850000;
+}
+
+p {
+
+  font-size: 20px;
 }
