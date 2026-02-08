@@ -55,4 +55,13 @@ p {
   color: #00d394;
   -webkit-text-stroke: 0.4px #c03aae;
 }
+ 
+/* Constrain logo image size */
+.logo {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
   
